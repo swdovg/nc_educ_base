@@ -3,7 +3,7 @@
 ## Quick start
 
 
-### 1. Clone repository on local machine
+### 1. Clone repository on a local machine
 
     git clone https://github.com/swdovg/nc_educ_base.git
 
