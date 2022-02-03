@@ -48,7 +48,7 @@ and populate it with test data from src/main/resources/data.sql
 Start application and navigate to localhost:8082/api/clientManagement/client/1. 
 It should return client model jSON retrieved from database.
 
-If data was successfully initialized on the next application astart it may throw an exception.
+If data was successfully initialized on the next application start it may throw an exception.
 
     org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "clients_pkey"
 
