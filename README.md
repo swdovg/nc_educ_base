@@ -40,10 +40,16 @@ to your database configuration. By default, postgres is configured.
     spring.datasource.password=postgres
     spring.datasource.driver-class-name=org.postgresql.Driver
 
-During startup application will create sample table 'clients' using src/main/resources/schema.sql file 
+### 3. Enable database initialization on startup
+
+In config/application.properties uncomment property:
+    
+    spring.sql.init.mode=always
+
+During startup application will create sample table 'clients' using src/main/resources/schema.sql file
 and populate it with test data from src/main/resources/data.sql
 
-### 3. Ensure database connection established and ORM initialized
+### 4. Ensure database connection established and ORM initialized
 
 Start application and navigate to localhost:8082/api/clientManagement/client/1. 
 It should return client model jSON retrieved from database.
