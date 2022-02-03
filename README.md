@@ -22,13 +22,13 @@ Base spring-boot application with preconfigured database connection, ORM, loggin
 
 ### 5. Ensure application is running
 
-Navigate to localhost:8082/healthCheck/status and check if it has UP status
+Navigate to [localhost:8082/healthCheck/status](localhost:8082/healthCheck/status) and check if it has UP status
 
 ## Database connection configuration
 
 ### 1. Database connection configuration
 
-install and run desired database instance using docker or in any other way. In this document and by default Postgres is used.
+Install and run desired database instance using docker or in any other way. In this document and by default Postgres is used.
 
 ### 2. Set up datasource properties
 
@@ -51,7 +51,7 @@ with test data from src/main/resources/data.sql
 
 ### 4. Ensure database connection established and ORM initialized
 
-Start application and navigate to localhost:8082/api/clientManagement/client/1. It should return client model jSON
+Start application and navigate to [localhost:8082/api/clientManagement/client/1](localhost:8082/api/clientManagement/client/1). It should return client model jSON
 retrieved from database.
 
 If data was successfully initialized on the next application start it may throw an exception.
