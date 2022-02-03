@@ -26,9 +26,9 @@ Navigate to localhost:8082/healthCheck/status and check if it has UP status
 
 ## Database connection configuration
 
-### 1.Database connection configuration
+### 1. Database connection configuration
 
-install and run desired database instance using docker or in any other way.
+install and run desired database instance using docker or in any other way. In this document and by default Postgres is used.
 
 ### 2. Set up datasource properties
 
